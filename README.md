@@ -1,4 +1,4 @@
-L5R-ng
-======
+GitHub Reminder
+===============
 
-Hopefully a Legend of the 5 rings character sheet, with Angular. 
+Work In Progress
