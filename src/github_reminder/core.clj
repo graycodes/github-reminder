@@ -9,7 +9,9 @@
 
 (defn get-commits
   [user]
-  (map :content (html/select (fetch-url "https://github.com/xinumbralis") [:a])))
+  (map :content
+       (html/select (fetch-url "https://github.com/xinumbralis") [:div.contrib-details :div :span]))
+  )
 
 (defn print-commits
   [l]
